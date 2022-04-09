@@ -98,6 +98,14 @@
             ],
             "scripts": []
           }
+        },
+        "ct": {
+          "builder": "@nrwl/cypress:cypress",
+          "options": {
+            "cypressConfig": "projects/my-project/cypress.json",
+            "tsConfig": "projects/my-project/tsconfig.cypress.json",
+            "testingType": "component"
+          }
         }
       }
     }
